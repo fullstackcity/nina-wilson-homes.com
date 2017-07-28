@@ -166,3 +166,17 @@ build-iPhoneSimulator/
 # End of https://www.gitignore.io/api/osx,c++,java,ruby,macos,linux
 
 /file
+/contact-form
+/database-connection
+/documents
+/find-your-dream-home
+/images
+/listings
+/navbar
+/rets
+/skeleton
+/soldlistings
+/style/head-tags.php
+/testimonials/images
+.user.ini
+demo.php
