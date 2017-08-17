@@ -26,74 +26,105 @@
       <div class="col-sm-4">
         <div class="style">
           <h4>FEATURED LISTINGS</h4>
+          <?php
+            include("../../rets/rets-3.php");
+          ?>
           <!-- Swiper -->
           <div class="swiper-container swiper-container-two" id="">
             <!-- Swiper-wrapper -->
               <div class="swiper-wrapper">
-                  <div class="swiper-slide swiper-slide-two" id="img-two-1">
-                    <div class="text-two">
-                        <h2>Coming Soon, Corpus Christi 78418</h2>
-                        <h3>2,300 Sqfr - 3 Bed - 2 Bath</h3>
-                        <button type="button" name="button">MORE INFO</button>
-                    </div>
 
-                  </div>
-                  <div class="swiper-slide swiper-slide-two" id="img-two-2">
+                  <div class="swiper-slide swiper-slide-two" style="background-image: url('<?php echo $obj[1] -> {'photos'}[0]; ?>')" id="img-two-1">
                     <div class="text-two">
-                      <h2>Coming Soon, Corpus Christi 78417</h2>
-                      <h3>2,300 Sqfr - 3 Bed - 2 Bath</h3>
-                      <button type="button" name="button">MORE INFO</button>
+                        <h2>
+                          <?php echo $obj[1] -> {'address'} -> {'full'}. ", ";?>
+                          <?php echo $obj[1] -> {'address'} -> {'city'}. ", "; ?>
+                          <?php echo $obj[1] -> {'address'} -> {'state'}. ". "; ?>
+                          <?php echo $obj[1] -> {'address'} -> {'postalCode'}; ?>
+                        </h2>
+                        <h3><?php echo $obj[1] -> {'property'} -> {'area'};?> SqFt -   <?php echo $obj[1] -> {'property'} -> {'bedrooms'}; ?> Bed - <?php echo $obj[1] -> {'property'} -> {'bathsFull'}; ?> Bath</h3>
+                        <!-- <button type="button" name="button">MORE INFO</button> -->
                     </div>
-
-                  </div>
-                  <div class="swiper-slide swiper-slide-two" id="img-two-3">
-                    <div class="text-two">
-                      <h2>Coming Soon, Corpus Christi 78405</h2>
-                      <h3>2,300 Sqfr - 3 Bed - 2 Bath</h3>
-                      <button type="button" name="button">MORE INFO</button>
-                    </div>
-
-                  </div>
-                  <div class="swiper-slide swiper-slide-two" id="img-two-4">
-                    <div class="text-two">
-                      <h2>Coming Soon, Corpus Christi 78480</h2>
-                      <h3>2,300 Sqfr - 3 Bed - 2 Bath</h3>
-                      <button type="button" name="button">MORE INFO</button>
-                    </div>
-
-                  </div>
-                  <div class="swiper-slide swiper-slide-two" id="img-two-5">
-                    <div class="text-two">
-                      <h2>Coming Soon, Corpus Christi 78415</h2>
-                      <h3>2,300 Sqfr - 3 Bed - 2 Bath</h3>
-                      <button type="button" name="button">MORE INFO</button>
-                    </div>
-
-                  </div>
-                  <div class="swiper-slide swiper-slide-two" id="img-two-6">
-                    <div class="text-two">
-                      <h2>Coming Soon, Corpus Christi 78411</h2>
-                      <h3>2,300 Sqfr - 3 Bed - 2 Bath</h3>
-                      <button type="button" name="button">MORE INFO</button>
-                    </div>
-
                   </div>
 
+                  <div class="swiper-slide swiper-slide-two" style="background-image: url('<?php echo $obj[2] -> {'photos'}[0]; ?>')" id="img-two-2">
+                    <div class="text-two">
+                      <h2>
+                        <?php echo $obj[2] -> {'address'} -> {'full'}. ", ";?>
+                        <?php echo $obj[2] -> {'address'} -> {'city'}. ", "; ?>
+                        <?php echo $obj[2] -> {'address'} -> {'state'}. ". "; ?>
+                        <?php echo $obj[2] -> {'address'} -> {'postalCode'}; ?>
+                      </h2>
+                      <h3><?php echo $obj[2] -> {'property'} -> {'area'};?> SqFt -   <?php echo $obj[2] -> {'property'} -> {'bedrooms'}; ?> Bed - <?php echo $obj[2] -> {'property'} -> {'bathsFull'}; ?> Bath</h3>
+                      <!-- <button type="button" name="button">MORE INFO</button> -->
+                    </div>
+                  </div>
 
+                  <div class="swiper-slide swiper-slide-two" style="background-image: url('<?php echo $obj[3] -> {'photos'}[0]; ?>')" id="img-two-3">
+                    <div class="text-two">
+                      <h2>
+                        <?php echo $obj[3] -> {'address'} -> {'full'}. ", ";?>
+                        <?php echo $obj[3] -> {'address'} -> {'city'}. ", "; ?>
+                        <?php echo $obj[3] -> {'address'} -> {'state'}. ". "; ?>
+                        <?php echo $obj[3] -> {'address'} -> {'postalCode'}; ?>
+                      </h2>
+                      <h3><?php echo $obj[3] -> {'property'} -> {'area'};?> SqFt -   <?php echo $obj[3] -> {'property'} -> {'bedrooms'}; ?> Bed - <?php echo $obj[3] -> {'property'} -> {'bathsFull'}; ?> Bath</h3>
+                      <!-- <button type="button" name="button">MORE INFO</button> -->
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide swiper-slide-two" style="background-image: url('<?php echo $obj[4] -> {'photos'}[1]; ?>')" id="img-two-4">
+                    <div class="text-two">
+                      <h2>
+                        <?php echo $obj[4] -> {'address'} -> {'full'}. ", ";?>
+                        <?php echo $obj[4] -> {'address'} -> {'city'}. ", "; ?>
+                        <?php echo $obj[4] -> {'address'} -> {'state'}. ". "; ?>
+                        <?php echo $obj[4] -> {'address'} -> {'postalCode'}; ?>
+                      </h2>
+                      <h3><?php echo $obj[4] -> {'property'} -> {'area'};?> SqFt -   <?php echo $obj[4] -> {'property'} -> {'bedrooms'}; ?> Bed - <?php echo $obj[4] -> {'property'} -> {'bathsFull'}; ?> Bath</h3>
+                      <!-- <button type="button" name="button">MORE INFO</button> -->
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide swiper-slide-two" style="background-image: url('<?php echo $obj[5] -> {'photos'}[0]; ?>')" id="img-two-5">
+                    <div class="text-two">
+                      <h2>
+                        <?php echo $obj[5] -> {'address'} -> {'full'}. ", ";?>
+                        <?php echo $obj[5] -> {'address'} -> {'city'}. ", "; ?>
+                        <?php echo $obj[5] -> {'address'} -> {'state'}. ". "; ?>
+                        <?php echo $obj[5] -> {'address'} -> {'postalCode'}; ?>
+                      </h2>
+                      <h3><?php echo $obj[5] -> {'property'} -> {'area'};?> SqFt -   <?php echo $obj[5] -> {'property'} -> {'bedrooms'}; ?> Bed - <?php echo $obj[5] -> {'property'} -> {'bathsFull'}; ?> Bath</h3>
+                      <!-- <button type="button" name="button">MORE INFO</button> -->
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide swiper-slide-two" style="background-image: url('<?php echo $obj[6] -> {'photos'}[0]; ?>')" id="img-two-6">
+                    <div class="text-two">
+                      <h2>
+                        <?php echo $obj[6] -> {'address'} -> {'full'}. ", ";?>
+                        <?php echo $obj[6] -> {'address'} -> {'city'}. ", "; ?>
+                        <?php echo $obj[6] -> {'address'} -> {'state'}. ". "; ?>
+                        <?php echo $obj[6] -> {'address'} -> {'postalCode'}; ?>
+                      </h2>
+                      <h3><?php echo $obj[6] -> {'property'} -> {'area'};?> SqFt -   <?php echo $obj[6] -> {'property'} -> {'bedrooms'}; ?> Bed - <?php echo $obj[6] -> {'property'} -> {'bathsFull'}; ?> Bath</h3>
+                      <!-- <button type="button" name="button">MORE INFO</button> -->
+                    </div>
+                  </div>
+                  <!-- /Swiper -->
+
+                  <!-- Add Pagination -->
+                  <div class="swiper-pagination swiper-pagination-two"></div>
+                  <!-- /Add Pagination -->
+
+                  <!-- Add Arrows -->
+                  <div class="swiper-button-next swiper-button-white swiper-button-next-two"></div>
+                  <div class="swiper-button-prev swiper-button-white swiper-button-prev-two"></div>
+                  <!-- /Add Arrows -->
+                  
               </div>
               <!-- /Swiper-wrapper -->
-
-              <!-- Add Pagination -->
-              <div class="swiper-pagination swiper-pagination-two"></div>
-              <!-- /Add Pagination -->
-
-              <!-- Add Arrows -->
-              <div class="swiper-button-next swiper-button-white swiper-button-next-two"></div>
-              <div class="swiper-button-prev swiper-button-white swiper-button-prev-two"></div>
-              <!-- /Add Arrows -->
-          </div>
-          <!-- /Swiper -->
-
+            </div>
         </div>
       </div>
 
