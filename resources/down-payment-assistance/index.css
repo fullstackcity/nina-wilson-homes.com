@@ -1,0 +1,140 @@
+@import url("../../style/navbar.css");
+
+html, body {
+    position: relative;
+    height: 100%;
+    background: #222;
+}
+body {
+    background: #222;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    color: #333333;
+    font-size: 14px;
+}
+
+/* Bio Header Image */
+.bio-header-image {
+  width: 100%;
+  padding: 0;
+  position: relative;
+  background: url('../../images/down-payment-assistance-header.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bio-header-image-opacity {
+  background-color: rgba(0, 0, 0, .24);
+    width: 100%;
+}
+.bio-title {
+  text-align: center;
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 185px 0 165px 0;
+}
+.bio-title h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.bio-title p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #f5f5f5;
+    font-size: 14px;
+}
+.bio-title a {
+  color: white;
+}
+/* /Bio Header Image */
+
+
+/* *** NEW CODE GOES HERE!! *** */ /* *** NEW CODE GOES HERE!! *** */
+/* *** NEW CODE GOES HERE!! *** */ /* *** NEW CODE GOES HERE!! *** */
+/* *** NEW CODE GOES HERE!! *** */ /* *** NEW CODE GOES HERE!! *** */
+.featured-partners-wrap {
+  background-color: #DDD;
+}
+.featured-partners-container {
+  padding: 0;
+}
+.featured-partners-row {
+  margin: 0;
+  padding: 20px;
+}
+.col-sm-4-featured-partners {
+  margin: 0;
+}
+.col-sm-4-style {
+  text-align: center;
+  padding: 20px;
+}
+.col-sm-4-style img {
+  text-align: center;
+  width: 100%;
+}
+.col-sm-4-style h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+}
+.col-sm-4-style h3 {
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+.icons i {
+  display: inline-block;
+  margin: 0 10px;
+  color: rgb(165, 94, 246);
+}
+
+.col-sm-6:hover .text-content {
+  opacity: 1;
+}
+.col-sm-6:focus .text-content {
+  opacity: 0;
+}
+.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+.text-within-text-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}*/
+
+/* *** NEW CODE GOES HERE!! *** */ /* *** NEW CODE GOES HERE!! *** */
+/* *** NEW CODE GOES HERE!! *** */ /* *** NEW CODE GOES HERE!! *** */
+/* *** NEW CODE GOES HERE!! *** */ /* *** NEW CODE GOES HERE!! *** */
+
+
+/* Footer */

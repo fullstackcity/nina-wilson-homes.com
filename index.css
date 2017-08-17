@@ -1,0 +1,923 @@
+@import 'style/navbar.css';
+html, body {
+    position: relative;
+    height: 100%;
+    background: #222;
+}
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    color: #333;
+    background: #222;
+    -webkit-font-smoothing: antialiased;
+}
+#map-icon {
+    margin-right: 10px;
+    color: #4648c4;
+}
+#phone-icon {
+    margin-right: 10px;
+    color: #4648c4;
+}
+#email-address {
+    color: #4648c4;
+}
+#four-icons {
+    margin: 20px 0 0 0;
+    text-align: right;
+}
+#four-icons i {
+    padding-right: 20px;
+    color: #424242;
+}
+.icon {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #424242;
+}
+.hello h1 {
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    color: #45468a;
+}
+.hello h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    margin-top: 15px;
+    letter-spacing: 5px;
+    color: #45468a;
+}
+#swiper-container-one {
+    width: 100%;
+    min-height: 100%;
+}
+.swiper-slide-one {
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    text-align: center;
+    background: #fff;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide-one img {
+    width: auto;
+    height: auto;
+}
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    outline: 1px solid #eee;
+}
+#img-1 {
+    position: relative;
+    overflow: hidden;
+    background: #000;
+}
+#img-1:before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    opacity: .8;
+    background: url('images/new-american-home-2013-pool.jpg') no-repeat bottom center;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-background-size: cover;
+}
+#img-1 .text {
+    z-index: 2;
+    color: white;
+}
+#img-2 {
+    position: relative;
+    overflow: hidden;
+    background: #000;
+}
+#img-2:before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    opacity: .8;
+    background: url('images/purple-black-and-white-check-curio-1.jpg') no-repeat center center;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-background-size: cover;
+}
+#img-2 .text {
+    z-index: 2;
+    color: white;
+}
+#img-3 {
+    position: relative;
+    overflow: hidden;
+    background: #000;
+}
+#img-3:before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    opacity: .8;
+    background: url('images/overlapping-pools-ocean-view-define-coastal-home-1-pools-view.jpg') no-repeat bottom center;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-background-size: cover;
+}
+#img-3 .text {
+    z-index: 2;
+    color: white;
+}
+#img-4 {
+    position: relative;
+    overflow: hidden;
+    background: #000;
+}
+#img-4:before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    opacity: .8;
+    background: url('images/4-new.jpg') no-repeat bottom center;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-background-size: cover;
+}
+#img-4 .text {
+    z-index: 2;
+    color: white;
+}
+#img-5 {
+    position: relative;
+    overflow: hidden;
+    background: #000;
+}
+#img-5:before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    opacity: .8;
+    background: url('images/resource-page-slider.jpg') no-repeat bottom center;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-background-size: cover;
+}
+#img-5 .text {
+    z-index: 2;
+    color: white;
+}
+.slide-titles {
+    width: 95%;
+    max-width: 1500px;
+    margin: auto auto;
+}
+.slide-titles h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.slide-titles h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    padding: 0 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 3px #111;
+}
+.slide-titles a {
+    color: white;
+}
+.slide-titles a:hover {
+    text-decoration: none;
+    color: white;
+}
+.slide-titles button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 14px;
+    padding: 5px 30px;
+    cursor: pointer;
+    -webkit-transition: width 2s;
+    /* Safari */
+    transition: width 2s;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 3px #000;
+    border: 2px solid white;
+    border-radius: none;
+    background-color: rgba(252, 252, 252, 0);
+}
+.meet-nina p {
+  text-align: justify;
+  font-size: 16px;
+  max-width: 1800px;
+  width: 100%;
+  margin: 0 auto;
+}
+#meet-nina {
+    background-color: #fff;
+    background: #FFF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#AAA, #FFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#AAA, #FFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#AAA, #FFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#AAA, #FFF); /* Standard syntax */
+}
+#meet-nina h3 {
+    font-family: 'Alex Brush', cursive;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 0;
+    letter-spacing: 3px;
+    color: rgb(82, 53, 115);
+}
+#meet-nina h3 span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+}
+
+/* Extra small devices (phones, up to 480px) */
+
+@media screen and (max-width: 767px) {
+    #four-icons {
+        text-align: center;
+    }
+    #swiper-container-one {
+        height: 70%;
+    }
+    .slide-titles h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .slide-titles h2 {
+        font-size: 15px;
+    }
+    #meet-nina {
+        padding: 60px 0;
+    }
+    #meet-nina h3 {
+        font-size: 40px;
+    }
+    #meet-nina h3 span {
+        font-size: 30px;
+    }
+    .news-image .row {
+        padding: 66px 0 50px 0;
+    }
+    .newsletter {
+        padding: 80px 10px;
+    }
+    .newsletter h1 {
+        font-size: 22px;
+    }
+    #learn-more button {
+        font-size: 11px;
+        padding: 6px 20px;
+    }
+    #get-in-touch button {
+        font-size: 11px;
+        padding: 7px 27px;
+    }
+    .icon-h1-para p {
+      margin: 8px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #four-icons {
+        text-align: center;
+    }
+    #swiper-container-one {
+        height: 80%;
+    }
+    .slide-titles h1 {
+        font-size: 50px;
+    }
+    .slide-titles h2 {
+        font-size: 16px;
+    }
+    #meet-nina {
+        padding: 80px 0;
+    }
+    #meet-nina h3 {
+        font-size: 50px;
+    }
+    #meet-nina h3 span {
+        font-size: 40px;
+    }
+    .news-image .row {
+        padding: 86px 0 70px 0;
+    }
+    .newsletter {
+        padding: 90px 10px;
+    }
+    .newsletter h1 {
+        font-size: 24px;
+    }
+    #learn-more button {
+        font-size: 12px;
+        padding: 11px 30px;
+    }
+    #get-in-touch button {
+        font-size: 12px;
+        padding: 11px 40px;
+    }
+    .icon-h1-para p {
+      margin: 10px;
+    }
+}
+
+/* tablets/desktops and up ----------- */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #swiper-container-one {
+        height: 90%;
+    }
+    .slide-titles h1 {
+        font-size: 60px;
+    }
+    .slide-titles h2 {
+        font-size: 18px;
+    }
+    #meet-nina {
+        padding: 100px 0;
+    }
+    #meet-nina h3 {
+        font-size: 60px;
+    }
+    #meet-nina h3 span {
+        font-size: 50px;
+    }
+    .news-image .row {
+        padding: 106px 0 90px 0;
+    }
+    .newsletter {
+        padding: 100px 10px;
+    }
+    .newsletter h1 {
+        font-size: 26px;
+    }
+    #learn-more button {
+        font-size: 13px;
+        padding: 11px 30px;
+    }
+    #get-in-touch button {
+        font-size: 13px;
+        padding: 11px 40px;
+    }
+    .icon-h1-para p {
+      margin: 15px;
+    }
+}
+
+/* large desktops and up ----------- */
+
+@media screen and (min-width: 1200px) {
+    #swiper-container-one {
+        height: 100%;
+    }
+    .slide-titles h1 {
+        font-size: 70px;
+    }
+    .slide-titles h2 {
+        font-size: 20px;
+    }
+    #meet-nina {
+        padding: 120px 0;
+    }
+    #meet-nina h3 {
+        font-size: 60px;
+    }
+    #meet-nina h3 span {
+        font-size: 50px;
+    }
+    .news-image .row {
+        padding: 126px 0 110px 0;
+    }
+    .newsletter {
+        padding: 110px 10px;
+    }
+    .newsletter h1 {
+        font-size: 28px;
+    }
+    #learn-more button {
+        font-size: 13px;
+        padding: 11px 30px;
+    }
+    #get-in-touch button {
+        font-size: 13px;
+        padding: 11px 40px;
+    }
+    .icon-h1-para p {
+      margin: 20px;
+    }
+}
+#hr-one, #hr-two {
+    width: 110px;
+    height: 1px;
+    background-color: rgb(211, 211, 211);
+}
+#hr-one {
+    margin-bottom: 5px;
+}
+#hr-two {
+    margin-top: 0;
+}
+#meet-nina p {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 20px;
+    margin-bottom: 40px;
+    padding: 0 50px;
+    text-align: center;
+    color: rgb(71, 64, 77);
+}
+#learn-more {
+    margin-bottom: 10px;
+    text-align: right;
+}
+.learn-more a {
+    color: #fff;
+}
+.learn-more a:hover {
+    color: #fff;
+}
+#learn-more button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 11px 30px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(82, 53, 115);
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: rgb(82, 53, 115);
+    outline-offset: 2px;
+    background-color: rgb(82, 53, 115);
+}
+#get-in-touch {
+    text-align: left;
+}
+#get-in-touch button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: rgb(34, 49, 63);
+    border: 1px solid rgb(34, 49, 63);
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: rgb(34, 49, 63);
+    outline-offset: 2px;
+    background-color: transparent;
+}
+.get-in-touch a {
+    color: rgb(82, 53, 115);
+}
+.get-in-touch a:hover {
+    color: rgb(82, 53, 115);
+}
+
+/* Extra small devices (phones, up to 480px) */
+
+@media screen and (max-width: 767px) {
+    #get-in-touch, #learn-more {
+        text-align: center;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #get-in-touch, #learn-more {
+        text-align: center;
+    }
+}
+
+/* Modules */
+
+.icon-title-para-style i {
+    font-size: 30px;
+    float: left;
+    color: rgb(82, 53, 115);
+}
+.icon-title-para-style {
+    margin: 0 20px;
+}
+.icon-h1-para a {
+    color: #383838;
+}
+.icon-h1-para a:hover {
+    text-decoration: none;
+    color: #383838;
+}
+.icon-h1-para h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-left: 50px;
+}
+.icon-h1-para p::selection {
+  background: rgb(121, 93, 153); /* WebKit/Blink Browsers */
+  color: #FFF;
+}
+.icon-h1-para p::-moz-selection {
+  background: rgb(121, 93, 153); /* Gecko Browsers */
+  color: #FFF;
+}
+.icon-h1-para p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: justify;
+    color: rgb(92, 92, 92);
+}
+#s-y-h-p {
+    margin-bottom: 0;
+}
+#modules-col-right {
+    padding-top: 20px;
+}
+#modules {
+    padding-bottom: 55px;
+    background-color: #eee;
+}
+#h-m-i-y-h-w, #s-y-h {
+    margin-top: 0;
+}
+.modules-img-div {
+    padding: 40px 0 10px 0;
+}
+#news-container {
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+.news-image button {
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 8px 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid rgb(82, 53, 115);
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: rgb(82, 53, 115);
+    outline-offset: 2px;
+    background-color: rgb(82, 53, 115);
+}
+.news-image i {
+    font-size: 15px;
+}
+.news-image {
+    width: 100%;
+    color: white;
+    background: url('images/Corpus-Christi-Texas.png') no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.news-image:before {
+    position: absolute;
+    opacity: .56;
+    background: rgba(0, 0, 0, .5);
+}
+.news-image h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0;
+    letter-spacing: 3px;
+}
+.hr {
+    width: 110px;
+    margin: 15px 0 20px 0;
+    padding: 2px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.news-image p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 25px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+.news-image .row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.news-image .toe {
+    width: 100%;
+    padding: 0;
+    background-color: rgba(39, 39, 39, .45);
+}
+.img-style img {
+    position: relative;
+    z-index: 2;
+    margin: 0 0 -100px 0;
+    border-radius: 5px;
+}
+.newsletter {
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    background-color: #f5f5f5;
+    background: #FFF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FFF, #AAA); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFF, #AAA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFF, #AAA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFF, #AAA); /* Standard syntax */
+}
+.newsletter h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0 0 0 0;
+    margin-bottom: 1px;
+    padding: 0 1px 24px 1px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgb(103, 103, 103);
+}
+.news-left-style {
+    padding-bottom: 20px;
+    text-align: center;
+}
+.btn-group span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-color: rgba(255, 255, 255, .09);
+    outline: none;
+    background-color: rgba(255, 255, 255, .1);
+}
+.btn-group span:hover, .btn-group span:focus, .btn-group .active {
+    color: white;
+    border-bottom: 3px solid rgb(82, 53, 115);
+    background-color: rgba(255, 255, 255, .3);
+}
+.btn-group {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 14px;
+}
+#bottomContent1, #bottomContent2 {
+    display: none;
+}
+.find-a-home-input-group {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 6px;
+    padding-bottom: 20px;
+}
+#find-a-home-search {
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+}
+#find-a-home-button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-weight: 800;
+    padding: 0 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 0;
+    background-color: rgb(82, 53, 115);
+}
+.find-a-home-input-group input {
+    text-overflow: ellipsis;
+    color: #fff;
+    border-color: rgba(255, 255, 255, .09);
+    background-color: rgba(255, 255, 255, .1);
+}
+.find-a-home-input-group .form-control {
+    padding: 25px 0 25px 20px;
+    color: #fff;
+}
+.find-a-home-input-group input::-webkit-input-placeholder {
+    /* Chrome */
+    color: #fff;
+}
+.find-a-home-input-group input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+}
+.find-a-home-input-group input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+}
+.find-a-home-input-group input:-moz-placeholder {
+    /* Firefox 4 - 18 */
+    color: #fff;
+}
+.newsletter input {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.7;
+    width: 200px;
+    cursor: auto;
+    user-select: text;
+    border: 1px solid #ccc;
+    background-color: white;
+    -webkit-appearance: textfield;
+    -webkit-rtl-ordering: logical;
+}
+.subscribe-fashion {
+    width: 100%;
+}
+.newsletter form {
+    width: 95%;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.newsletter form .input-group input, .newsletter form .input-group span {
+    border-radius: 2px;
+}
+#basic-addon2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    border-color: rgb(82, 53, 115);
+    background-color: rgb(82, 53, 115);
+}
+
+
+
+.write-a-review-icon {
+  margin-top: 20px;
+}
+.fa-commenting span {
+  font-family: 'Open Sans', sans-serif;
+}
+.fa-commenting {
+  color: #FFF;
+  background-color: rgb(82, 53, 115);
+  padding: 8px 18px;
+  border-radius: 2px;
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .fa-commenting span {
+        font-size: 16px;
+    }
+    .fa-commenting {
+        font-size: 20px;
+    }
+    /*.write-a-review-icon {
+      right: 20px;
+    }*/
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .fa-commenting span {
+        font-size: 20px;
+    }
+    .fa-commenting {
+        font-size: 23px;
+    }
+    /*.write-a-review-icon {
+        right: 20px;
+    }*/
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .fa-commenting span {
+        font-size: 22px;
+    }
+    .fa-commenting {
+        font-size: 25px;
+    }
+    /*.write-a-review-icon {
+      right: 30px;
+    }*/
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .fa-commenting span {
+        font-size: 24px;
+    }
+    .fa-commenting {
+        font-size: 27px;
+    }
+    /*.write-a-review-icon {
+      right: 35px;
+    }*/
+}
+#modal-dialog {
+	margin-bottom: 56px;
+}
+
+#exampleModalLabel {
+  font-size: 23px;
+  color: #FFF;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.form-group label {
+  color: white;
+  text-shadow: 1px 2px 3px black;
+}
+.form-group label span {
+  color: #e86f60;
+}

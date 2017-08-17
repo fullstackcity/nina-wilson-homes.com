@@ -1,0 +1,159 @@
+@import "fonts.css";
+
+.hello {
+    background-color: white;
+    height: 100%;
+    padding: 25px;
+    text-align: center;
+}
+.navbar-brand {
+    font-size: 27px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Alex Brush', cursive;
+    background: -webkit-linear-gradient(#FFF, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 15px 10px 0 15px;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a,.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #222222;
+    color: rgb(157, 157, 157);
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover,.navbar-inverse .navbar-nav .open .dropdown-menu:hover {
+    color: rgb(255, 255, 255);
+}
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        font-size: 23px;
+    }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand {
+        font-size: 25px;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .navbar-brand {
+        font-size: 27px;
+    }
+}
+.nav a {
+    font-family: 'Hind', sans-serif;
+    margin-top: 8px;
+}
+#contactModalTitle {
+  color: #FFF;
+  font-size: 24px;
+}
+#close-contact-modal-button {
+    background-color: rgba(255, 255, 255, .67);
+    border-color: rgba(255, 255, 255, .1);
+}
+#close-contact-modal-button:hover {
+    background-color: rgba(230, 230, 230, .67);
+    border-color: rgba(255, 255, 255, .1);
+}
+#submit-contact-modal-button {
+  background-color: rgba(82, 53, 115, .64);
+  border-color: rgba(82, 53, 115, .64);
+  color: white;
+}
+#submit-contact-modal-button:hover {
+  background-color: rgba(66, 41, 93, .64);
+  border-color: rgba(69, 44, 97, .64);
+}
+#call-contact-modal-button {
+  background-color: rgba(104, 68, 145, .64);
+  border-color: rgba(104, 68, 145, .64);
+  color: white;
+}
+#call-contact-modal-button:hover {
+  background-color: rgba(75, 49, 105, .64);
+  border-color: rgba(96, 62, 134, .64);
+}
+.light-gray {
+  background-color: rgba(34, 34, 34, .9);
+  border-color: rgba(34, 34, 34, .9);
+  color: #FFF;
+}
+.form-control:focus{
+  border-color: rgb(173, 113, 241);
+  box-shadow:  0 0 1px rgb(173, 113, 241), 0 0 1px rgb(173, 113, 241);
+}
+.modal-content {
+    background-color:  rgba(82, 53, 115, .3);
+}
+.modal-footer, .modal-header {
+    border-style: none;
+    color: #FFF;
+}
+.modal-header {
+    border-style: none;
+    padding-top: 25px;
+    padding-left: 25px;
+    text-shadow: 1px 2px 2px black;
+}
+
+
+/*** Contact Modal Fixed ***/
+.contact-modal-icon {
+  margin-top: 10px;
+}
+.fa-envelope-23 span {
+  font-family: 'Open Sans', sans-serif;
+}
+.fa-envelope-23 {
+  color: #FFF;
+  background-color: rgb(82, 53, 115);
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .fa-envelope-23 {
+        font-size: 20px;
+    }
+    .fa-envelope-23 span {
+        font-size: 16px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .fa-envelope-23 {
+        font-size: 23px;
+    }
+    .fa-envelope-23 span {
+        font-size: 20px;
+    }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .fa-envelope-23 {
+        font-size: 25px;
+    }
+    .fa-envelope-23 span {
+        font-size: 22px;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .fa-envelope-23 {
+        font-size: 27px;
+    }
+    .fa-envelope-23 span {
+        font-size: 24px;
+    }
+}
+
+/*** /Contact Modal Fixed ***/

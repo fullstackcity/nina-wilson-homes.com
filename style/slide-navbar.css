@@ -1,0 +1,66 @@
+/* The side navigation menu */
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1040; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    text-align: left;
+    
+  }
+
+  /* The navigation menu links */
+  .sidenav a {
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    padding-left: 30px;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+  }
+
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+
+
+    /*.sidenav {padding-top: 15px;}*/
+
+
+
+  /* Extra small devices (phones, up to 480px) */
+  @media screen and (max-width: 767px) {
+      .sidenav a {font-size: 17px;}
+  }
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991px) {
+      .sidenav a {font-size: 20px;}
+  }
+  /* tablets/desktops and up ----------- */
+  @media (min-width: 992px) and (max-width: 1199px) {
+      .sidenav a {font-size: 25px;}
+  }
+  /* large desktops and up ----------- */
+  @media screen and (min-width: 1200px) {
+      .sidenav a {font-size: 25px;}
+  }
